@@ -1,0 +1,23 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #E9ECEF;
+  --h1: #500c50;
+  --h2: #7e6b00;
+}
+
+body {
+  background: var(--bg);
+}
+
+.purple {
+  color: var(--h1);
+}
+
+.gold {
+  color: var(--h2);
+}
